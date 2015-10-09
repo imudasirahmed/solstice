@@ -12,4 +12,12 @@
 
 Thank you for your time in reviewing my work.
 
+**Screens**
+
+![alt tag](https://github.com/imudasirahmed/solstice/blob/master/Screenshot_Launch.png)
+
+![alt tag](https://github.com/imudasirahmed/solstice/blob/master/Screenshot_Contacts.png)
+
+![alt tag](https://github.com/imudasirahmed/solstice/blob/master/Screenshot_Contact%20Details.png)
+
 --Mudasir Ahmed
