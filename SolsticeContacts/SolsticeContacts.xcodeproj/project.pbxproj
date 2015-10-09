@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F74BF7601BC839A7002133FB /* PIKContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74BF75F1BC839A7002133FB /* PIKContactDetailViewController.m */; };
+		F78A8FE41BC7ED2F00EF45F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F78A8FE31BC7ED2F00EF45F8 /* main.m */; };
+		F78A8FE71BC7ED2F00EF45F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F78A8FE61BC7ED2F00EF45F8 /* AppDelegate.m */; };
+		F78A8FEA1BC7ED2F00EF45F8 /* SolsticeContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F78A8FE81BC7ED2F00EF45F8 /* SolsticeContacts.xcdatamodeld */; };
+		F78A8FF01BC7ED2F00EF45F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78A8FEE1BC7ED2F00EF45F8 /* Main.storyboard */; };
+		F78A8FF21BC7ED2F00EF45F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78A8FF11BC7ED2F00EF45F8 /* Images.xcassets */; };
+		F78A8FF51BC7ED2F00EF45F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78A8FF31BC7ED2F00EF45F8 /* LaunchScreen.xib */; };
+		F78A90011BC7ED2F00EF45F8 /* SolsticeContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F78A90001BC7ED2F00EF45F8 /* SolsticeContactsTests.m */; };
+		F78A900C1BC7EDB400EF45F8 /* PIKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F78A900B1BC7EDB400EF45F8 /* PIKModel.m */; };
+		F78A900F1BC7F10700EF45F8 /* PIKContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F78A900E1BC7F10700EF45F8 /* PIKContact.m */; };
+		F78A90171BC7F4D900EF45F8 /* PIKContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78A90161BC7F4D900EF45F8 /* PIKContactListViewController.m */; };
+		F78A901A1BC80B6000EF45F8 /* PIKContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F78A90191BC80B6000EF45F8 /* PIKContactTableViewCell.m */; };
+		F7EB7B431BC85EA500412635 /* PIKDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB7B421BC85EA500412635 /* PIKDefines.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F78A8FFB1BC7ED2F00EF45F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78A8FD61BC7ED2F00EF45F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78A8FDD1BC7ED2F00EF45F8;
+			remoteInfo = SolsticeContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F74BF75E1BC839A7002133FB /* PIKContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIKContactDetailViewController.h; sourceTree = "<group>"; };
+		F74BF75F1BC839A7002133FB /* PIKContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIKContactDetailViewController.m; sourceTree = "<group>"; };
+		F78A8FDE1BC7ED2F00EF45F8 /* Connections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connections.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78A8FE21BC7ED2F00EF45F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78A8FE31BC7ED2F00EF45F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F78A8FE51BC7ED2F00EF45F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F78A8FE61BC7ED2F00EF45F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F78A8FE91BC7ED2F00EF45F8 /* SolsticeContacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SolsticeContacts.xcdatamodel; sourceTree = "<group>"; };
+		F78A8FEF1BC7ED2F00EF45F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F78A8FF11BC7ED2F00EF45F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F78A8FF41BC7ED2F00EF45F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F78A8FFA1BC7ED2F00EF45F8 /* SolsticeContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolsticeContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78A8FFF1BC7ED2F00EF45F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78A90001BC7ED2F00EF45F8 /* SolsticeContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolsticeContactsTests.m; sourceTree = "<group>"; };
+		F78A900A1BC7EDB400EF45F8 /* PIKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIKModel.h; sourceTree = "<group>"; };
+		F78A900B1BC7EDB400EF45F8 /* PIKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIKModel.m; sourceTree = "<group>"; };
+		F78A900D1BC7F10700EF45F8 /* PIKContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIKContact.h; sourceTree = "<group>"; };
+		F78A900E1BC7F10700EF45F8 /* PIKContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIKContact.m; sourceTree = "<group>"; };
+		F78A90151BC7F4D900EF45F8 /* PIKContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIKContactListViewController.h; sourceTree = "<group>"; };
+		F78A90161BC7F4D900EF45F8 /* PIKContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIKContactListViewController.m; sourceTree = "<group>"; };
+		F78A90181BC80B6000EF45F8 /* PIKContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIKContactTableViewCell.h; sourceTree = "<group>"; };
+		F78A90191BC80B6000EF45F8 /* PIKContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIKContactTableViewCell.m; sourceTree = "<group>"; };
+		F7EB7B411BC85D7400412635 /* PIKDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIKDefines.h; sourceTree = "<group>"; };
+		F7EB7B421BC85EA500412635 /* PIKDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIKDefines.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F78A8FDB1BC7ED2F00EF45F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78A8FF71BC7ED2F00EF45F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F78A8FD51BC7ED2F00EF45F8 = {
+			isa = PBXGroup;
+			children = (
+				F78A8FE01BC7ED2F00EF45F8 /* SolsticeContacts */,
+				F78A8FFD1BC7ED2F00EF45F8 /* SolsticeContactsTests */,
+				F78A8FDF1BC7ED2F00EF45F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F78A8FDF1BC7ED2F00EF45F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F78A8FDE1BC7ED2F00EF45F8 /* Connections.app */,
+				F78A8FFA1BC7ED2F00EF45F8 /* SolsticeContactsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F78A8FE01BC7ED2F00EF45F8 /* SolsticeContacts */ = {
+			isa = PBXGroup;
+			children = (
+				F78A90141BC7F47000EF45F8 /* userinterface */,
+				F78A90101BC7F33B00EF45F8 /* model */,
+				F7EB7B411BC85D7400412635 /* PIKDefines.h */,
+				F7EB7B421BC85EA500412635 /* PIKDefines.m */,
+				F78A8FE51BC7ED2F00EF45F8 /* AppDelegate.h */,
+				F78A8FE61BC7ED2F00EF45F8 /* AppDelegate.m */,
+				F78A8FEE1BC7ED2F00EF45F8 /* Main.storyboard */,
+				F78A8FF11BC7ED2F00EF45F8 /* Images.xcassets */,
+				F78A8FF31BC7ED2F00EF45F8 /* LaunchScreen.xib */,
+				F78A8FE81BC7ED2F00EF45F8 /* SolsticeContacts.xcdatamodeld */,
+				F78A8FE11BC7ED2F00EF45F8 /* Supporting Files */,
+			);
+			path = SolsticeContacts;
+			sourceTree = "<group>";
+		};
+		F78A8FE11BC7ED2F00EF45F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F78A8FE21BC7ED2F00EF45F8 /* Info.plist */,
+				F78A8FE31BC7ED2F00EF45F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F78A8FFD1BC7ED2F00EF45F8 /* SolsticeContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F78A90001BC7ED2F00EF45F8 /* SolsticeContactsTests.m */,
+				F78A8FFE1BC7ED2F00EF45F8 /* Supporting Files */,
+			);
+			path = SolsticeContactsTests;
+			sourceTree = "<group>";
+		};
+		F78A8FFE1BC7ED2F00EF45F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F78A8FFF1BC7ED2F00EF45F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F78A90101BC7F33B00EF45F8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F78A900D1BC7F10700EF45F8 /* PIKContact.h */,
+				F78A900E1BC7F10700EF45F8 /* PIKContact.m */,
+				F78A900A1BC7EDB400EF45F8 /* PIKModel.h */,
+				F78A900B1BC7EDB400EF45F8 /* PIKModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		F78A90141BC7F47000EF45F8 /* userinterface */ = {
+			isa = PBXGroup;
+			children = (
+				F78A90151BC7F4D900EF45F8 /* PIKContactListViewController.h */,
+				F78A90161BC7F4D900EF45F8 /* PIKContactListViewController.m */,
+				F78A90181BC80B6000EF45F8 /* PIKContactTableViewCell.h */,
+				F78A90191BC80B6000EF45F8 /* PIKContactTableViewCell.m */,
+				F74BF75E1BC839A7002133FB /* PIKContactDetailViewController.h */,
+				F74BF75F1BC839A7002133FB /* PIKContactDetailViewController.m */,
+			);
+			name = userinterface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F78A8FDD1BC7ED2F00EF45F8 /* SolsticeContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78A90041BC7ED2F00EF45F8 /* Build configuration list for PBXNativeTarget "SolsticeContacts" */;
+			buildPhases = (
+				F78A8FDA1BC7ED2F00EF45F8 /* Sources */,
+				F78A8FDB1BC7ED2F00EF45F8 /* Frameworks */,
+				F78A8FDC1BC7ED2F00EF45F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolsticeContacts;
+			productName = SolsticeContacts;
+			productReference = F78A8FDE1BC7ED2F00EF45F8 /* Connections.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F78A8FF91BC7ED2F00EF45F8 /* SolsticeContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78A90071BC7ED2F00EF45F8 /* Build configuration list for PBXNativeTarget "SolsticeContactsTests" */;
+			buildPhases = (
+				F78A8FF61BC7ED2F00EF45F8 /* Sources */,
+				F78A8FF71BC7ED2F00EF45F8 /* Frameworks */,
+				F78A8FF81BC7ED2F00EF45F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78A8FFC1BC7ED2F00EF45F8 /* PBXTargetDependency */,
+			);
+			name = SolsticeContactsTests;
+			productName = SolsticeContactsTests;
+			productReference = F78A8FFA1BC7ED2F00EF45F8 /* SolsticeContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F78A8FD61BC7ED2F00EF45F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Mudasir Ahmed";
+				TargetAttributes = {
+					F78A8FDD1BC7ED2F00EF45F8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F78A8FF91BC7ED2F00EF45F8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F78A8FDD1BC7ED2F00EF45F8;
+					};
+				};
+			};
+			buildConfigurationList = F78A8FD91BC7ED2F00EF45F8 /* Build configuration list for PBXProject "SolsticeContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F78A8FD51BC7ED2F00EF45F8;
+			productRefGroup = F78A8FDF1BC7ED2F00EF45F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F78A8FDD1BC7ED2F00EF45F8 /* SolsticeContacts */,
+				F78A8FF91BC7ED2F00EF45F8 /* SolsticeContactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F78A8FDC1BC7ED2F00EF45F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78A8FF01BC7ED2F00EF45F8 /* Main.storyboard in Resources */,
+				F78A8FF51BC7ED2F00EF45F8 /* LaunchScreen.xib in Resources */,
+				F78A8FF21BC7ED2F00EF45F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78A8FF81BC7ED2F00EF45F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F78A8FDA1BC7ED2F00EF45F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78A90171BC7F4D900EF45F8 /* PIKContactListViewController.m in Sources */,
+				F78A901A1BC80B6000EF45F8 /* PIKContactTableViewCell.m in Sources */,
+				F74BF7601BC839A7002133FB /* PIKContactDetailViewController.m in Sources */,
+				F7EB7B431BC85EA500412635 /* PIKDefines.m in Sources */,
+				F78A8FE71BC7ED2F00EF45F8 /* AppDelegate.m in Sources */,
+				F78A8FE41BC7ED2F00EF45F8 /* main.m in Sources */,
+				F78A900C1BC7EDB400EF45F8 /* PIKModel.m in Sources */,
+				F78A8FEA1BC7ED2F00EF45F8 /* SolsticeContacts.xcdatamodeld in Sources */,
+				F78A900F1BC7F10700EF45F8 /* PIKContact.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78A8FF61BC7ED2F00EF45F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78A90011BC7ED2F00EF45F8 /* SolsticeContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F78A8FFC1BC7ED2F00EF45F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78A8FDD1BC7ED2F00EF45F8 /* SolsticeContacts */;
+			targetProxy = F78A8FFB1BC7ED2F00EF45F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F78A8FEE1BC7ED2F00EF45F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F78A8FEF1BC7ED2F00EF45F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F78A8FF31BC7ED2F00EF45F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F78A8FF41BC7ED2F00EF45F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F78A90021BC7ED2F00EF45F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F78A90031BC7ED2F00EF45F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F78A90051BC7ED2F00EF45F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SolsticeContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Connections;
+			};
+			name = Debug;
+		};
+		F78A90061BC7ED2F00EF45F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SolsticeContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Connections;
+			};
+			name = Release;
+		};
+		F78A90081BC7ED2F00EF45F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SolsticeContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolsticeContacts.app/SolsticeContacts";
+			};
+			name = Debug;
+		};
+		F78A90091BC7ED2F00EF45F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SolsticeContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolsticeContacts.app/SolsticeContacts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F78A8FD91BC7ED2F00EF45F8 /* Build configuration list for PBXProject "SolsticeContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78A90021BC7ED2F00EF45F8 /* Debug */,
+				F78A90031BC7ED2F00EF45F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78A90041BC7ED2F00EF45F8 /* Build configuration list for PBXNativeTarget "SolsticeContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78A90051BC7ED2F00EF45F8 /* Debug */,
+				F78A90061BC7ED2F00EF45F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78A90071BC7ED2F00EF45F8 /* Build configuration list for PBXNativeTarget "SolsticeContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78A90081BC7ED2F00EF45F8 /* Debug */,
+				F78A90091BC7ED2F00EF45F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F78A8FE81BC7ED2F00EF45F8 /* SolsticeContacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F78A8FE91BC7ED2F00EF45F8 /* SolsticeContacts.xcdatamodel */,
+			);
+			currentVersion = F78A8FE91BC7ED2F00EF45F8 /* SolsticeContacts.xcdatamodel */;
+			path = SolsticeContacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F78A8FD61BC7ED2F00EF45F8 /* Project object */;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4WP-79-flD">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wet-OZ-1Hr">
+                    <rect key="frame" x="0.0" y="284" width="320" height="284"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="E2I-tN-2kk">
+                    <rect key="frame" x="130" y="254" width="60" height="60"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wet-OZ-1Hr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0rN-Oc-HTj"/>
+                <constraint firstAttribute="trailing" secondItem="wet-OZ-1Hr" secondAttribute="trailing" id="3jW-C3-vfK"/>
+                <constraint firstAttribute="centerX" secondItem="E2I-tN-2kk" secondAttribute="centerX" id="6Cf-Tw-LXe"/>
+                <constraint firstAttribute="trailing" secondItem="4WP-79-flD" secondAttribute="trailing" id="AGI-sv-68M"/>
+                <constraint firstItem="wet-OZ-1Hr" firstAttribute="top" secondItem="4WP-79-flD" secondAttribute="bottom" id="T0b-ze-52X"/>
+                <constraint firstItem="4WP-79-flD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UQ9-Sv-bni"/>
+                <constraint firstAttribute="centerY" secondItem="E2I-tN-2kk" secondAttribute="centerY" id="c3C-Qw-xGl"/>
+                <constraint firstItem="4WP-79-flD" firstAttribute="height" secondItem="wet-OZ-1Hr" secondAttribute="height" id="eeX-bb-jKJ"/>
+                <constraint firstAttribute="bottom" secondItem="wet-OZ-1Hr" secondAttribute="bottom" id="ndI-b9-1il"/>
+                <constraint firstItem="4WP-79-flD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qxU-hP-bUB"/>
+                <constraint firstItem="4WP-79-flD" firstAttribute="width" secondItem="wet-OZ-1Hr" secondAttribute="width" id="zKQ-EM-Jdj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="509" y="453"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="60" height="60"/>
+    </resources>
+</document>
