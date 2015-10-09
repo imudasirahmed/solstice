@@ -4,6 +4,7 @@
 
 • This app uses core data to store and manage contacts - Hence could be use offline too :]
 
+• Supports both Landscape and Portrait mode
 
 • Custom app icons which I designed using Illustrator
 
