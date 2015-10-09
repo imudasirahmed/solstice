@@ -1,5 +1,7 @@
 # solstice
-About This Application -  
+**About This Application**  
+
+
 • This app uses core data to store and manage contacts - Hence could be use offline too :]
 
 
